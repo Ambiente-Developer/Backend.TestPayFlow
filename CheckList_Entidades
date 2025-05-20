@@ -1,0 +1,16 @@
+# ✅ Checklists por entidad y miembro - Fase 1: Endpoints
+
+## 👤 Wilber
+### 🔹 Entidad: `Transacciones`
+- [ ] Crear clase Entity
+- [ ] Crear DTO (`Create`, `List`, `Update` si aplica)
+- [ ] Crear interfaz IRepositorio
+- [ ] Implementar Repositorio con EF Core
+- [ ] Registrar repositorio en `Program.cs`
+- [ ] Crear controlador y endpoints CRUD:
+  - [ ] GET /api/{entidad.lower()}
+  - [ ] GET /api/{entidad.lower()}/{{id}}
+  - [ ] POST /api/{entidad.lower()}
+  - [ ] PUT /api/{entidad.lower()}/{{id}}
+  - [ ] DELETE /api/{entidad.lower()}/{{id}}
+- [ ] Probar con Swagger/Postman
